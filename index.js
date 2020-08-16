@@ -14,6 +14,6 @@ app.use("*", async (req, res) => {
 	res.send(discordIndexHTML);
 });
 
-app.listen(80, () => {
-	console.log("server listening on :80");
+app.listen(3000, () => {
+	console.log("server listening on :2000");
 });
